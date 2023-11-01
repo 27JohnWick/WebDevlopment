@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1, h2{
+            /* display: inline;  */
+            /* display: none; */
+        }
+        /* a{
+            display: block;
+        } */
+        .card{
+            width: 600px;
+            padding: 10px;
+            background-color: navy;
+            color: white;
+            margin: 50px auto;
+        }
+        .card h2{
+            color: yellow;
+            text-align: center;
+        }
+        .card a{
+            text-decoration: none;
+            background-color: white;
+            color: black;
+            /*height: 500px;
+            width: 500px;*/
+            padding: 10px 20px;
+            display: inline-block;
+            font-weight: 600;
+            border-radius: 5px;
+        }
+        ul{
+            list-style-type: lower-roman;
+        }
+        ul li{
+            margin-bottom: 10px;
+        }
+
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            margin: auto;
+            width: 25%;
+        }
+        table caption{
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        tr:nth-child(even){
+            background-color: #ddd;
+        }
+        tr:first-child{
+            background-color: blue;
+            color: #fff;
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+        .user-card{
+            width: 300px;
+            margin: 20px;
+            border: 1px solid black;
+        }
+        .user-card img{
+            width: 100%;
+        }
+        .card-body{
+            padding: 10px;
+            text-align: center;
+        }
+        .card-body *{
+            margin-bottom: 5px;
+        }
+        .social img{
+            width: 25px;
+            margin-right: 10px;
+        }
+        body{
+            background-color: #ddd;
+        }
+        .login-card{
+            width: 400px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: white;
+            border-right: 20px solid deepskyblue ;
+        }
+        .login-card h2{
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .form-group{
+            margin-bottom: 10px;
+        }
+        .form-group label{
+            display: block;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 1.1px;
+            margin-bottom: 3px;
+        }
+        .form-group span{
+            font-size: 12px;
+        }
+        input{
+            display: block;
+            width: 100%;
+            font-size: 22px;
+            padding: 3px;
+            background-color: #ddd;
+            border: none;
+        }
+        input[type="checkbox"]{
+            display: inline;
+            width: 10px;
+        }
+        input[type="submit"]{
+            background-color: deepskyblue;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 8px;
+            border-radius: 3px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <h2>Hi</h2>
+    <a href="">Link 1</a>
+    <a href="">Link 2</a>
+    <div class="card">
+        <h2>HTML 5</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, blanditiis laboriosam voluptas commodi dolores officiis corporis cupiditate temporibus totam iste.</p>
+        <a href="">Read More</a>
+    </div>
+
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+    <table>
+        <caption>Table Example</caption>
+        <tr>
+            <th>COl 1</th>
+            <th>COl 2</th>
+            <th>COl 3</th>
+            <th>COl 14</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <div class="user-card">
+        <div class="card-header">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_h5nToWbkX_B2hHHQfJScgYLo2Yc7cDSXRg&usqp=CAU">
+        </div>
+        <div class="card-body">
+            <h3>John Doe</h3>
+            <small>MCA Freshers</small>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta quibusdam in dolores nesciunt non sequi omnis distinctio at expedita commodi?</p>
+            <div class="social">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1024px-2021_Facebook_icon.svg.png" >
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" >
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Form -->
+    <div class="login-card">
+        <h2>Account Login</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="">Username</label>
+                <input type="email">
+            </div>
+            <div class="form-group">
+                <label for="">Password</label>
+                <input type="password">
+            </div>
+            <div class="form-group">
+                <input type="checkbox">
+                <span>Remember Me</span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Log In">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

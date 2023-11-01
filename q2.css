@@ -1,0 +1,18 @@
+.card{
+    border: 2px solid black;
+    display:inline-table;
+    border-radius: 5px;
+    height: 40px;
+    width: 30px;
+}
+h3,p{
+    padding: 5px;
+}
+.card input{
+    background: rgb(48, 143, 167);
+    padding: 5px;
+    margin:0px 8px 8px 8px;
+    border-radius: 5px;
+    justify-content: center;
+    color: aliceblue;
+}

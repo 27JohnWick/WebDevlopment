@@ -1,0 +1,24 @@
+.tab{
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+    align-content: center;
+    color:aliceblue;
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+td{
+    align-content: center ;
+    padding: 5px;
+    border: 1px solid black;
+}
+caption{
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
